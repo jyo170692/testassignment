@@ -1,0 +1,165 @@
+*
+{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    
+     font-family: Open Sans;
+     font-size: 24px;
+    font-weight: 700;
+line-height: 32.68px;
+text-align: center;
+  display:flex;
+     align-items:center;
+     justify-content:center;
+     background-color:grey;
+
+}
+
+.container
+{
+     width: 272px;
+     min-height: 480px;
+     background-color:white;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     position: relative;
+}
+.stop
+{
+    width: 149px;
+height: 36px;
+top: 222px;
+left: 62px;
+
+font-size: 20px;
+font-weight: 400;
+position: absolute;
+text-align: center;
+color: #FA3232;
+
+}
+.close
+{
+width: 232px;
+height: 80px;
+top: 222px;
+left: 22px;
+display: flex;
+justify-content: center;
+text-align: center;
+position: absolute;
+}
+.close p{
+    font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color:#1E1E1E;
+
+}
+.second
+{
+   width: 149px;
+height: 36px;
+top: 334px;
+left: 64px;
+gap: 0px;
+opacity: 0px;
+
+
+display: flex;
+align-items: end;
+justify-content: end;
+position: absolute;
+}
+.second span
+{
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color:#FA3232;;
+}
+.menu
+{
+    width: 272px;
+   height: 48px;
+   background-color: #184A7C;
+   display:flex;
+   align-items:center;
+   
+
+}
+.menu h3
+{
+ 
+font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color:white;
+margin: auto;
+}
+.image{
+width: 110.1px;
+height: 130px;
+top: 71px;
+left: 85.1px;
+
+border-radius: 2px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+
+}
+.menu i
+{
+    width:32px;
+    height:32px;
+    font-size:25px;
+    padding-left:10px;
+}
+
+
+.bottom
+{
+    width: 100%;
+    padding:0px 10px 0px 10px;
+    margin-bottom: 10px;
+}
+.bottom a
+{
+    width: 100%;
+    height: 48px;
+    color:   
+#FFFFFF;
+background-color:#184A7C;
+
+padding:10px;
+display:inline-block;
+margin-top:4px;
+font-size: 20px;
+font-family: Open Sans;
+
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+
+
+}
+
+a
+{
+    text-decoration:none;
+}
+
+span:hover
+{color:#184A7C}
+
+
+

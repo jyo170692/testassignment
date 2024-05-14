@@ -1,0 +1,113 @@
+
+
+*
+{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    
+     font-family: Open Sans;
+     font-size: 24px;
+    font-weight: 700;
+line-height: 32.68px;
+text-align: center;
+  display:flex;
+     align-items:center;
+     justify-content:center;
+     background-color:grey;
+
+}
+
+.container
+{
+     width: 272px;
+     min-height: 480px;
+     background-color:white;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     position: relative;
+}
+.menu
+{
+    width: 272px;
+   height: 48px;
+   background-color: #184A7C;
+   display:flex;
+   align-items:center;
+   
+
+}
+.menu h3
+{
+   font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color:white;
+margin: auto;
+}
+
+.menu i
+{
+    width:32px;
+    height:32px;
+    font-size:25px;
+    padding-left:10px;
+}
+
+
+
+a
+{
+    text-decoration:none;
+}
+
+span:hover
+{color:#184A7C}
+
+
+
+.output
+{
+    width: 57px;
+height: 16px;
+top: 64px;
+left: 108px;
+position: absolute;
+
+}
+.output p
+{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+color: #7F7F7F;
+
+}
+.first
+{
+   width: 136px;
+height: 48.5px;
+top: 336px;
+
+border: 2px 0px 0px 0px;
+position: absolute;
+border: 2px solid #184A7C;
+display: flex;
+}
+.first p{
+
+font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color:#184A7C;
+margin: auto;
+}

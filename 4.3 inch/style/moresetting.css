@@ -1,0 +1,182 @@
+
+
+*
+{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    
+     font-family: Open Sans;
+     font-size: 24px;
+    font-weight: 700;
+line-height: 32.68px;
+text-align: center;
+     background-color: grey;
+
+}
+
+.container
+{
+     width: 272px;
+     min-height: 480px;
+     background-color:white;
+
+    
+
+}
+.menu
+{
+    width: 272px;
+   height: 48px;
+   background-color: #184A7C;
+   display:flex;
+   align-items:center;
+   
+
+}
+.main-container
+{
+    width:100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu h3
+{
+   font-family: Open Sans;
+font-size: 25px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+color:white;
+margin: auto;
+
+}
+
+.menu i
+{
+    width:32px;
+    height:32px;
+    font-size:25px;
+    padding-left:10px;
+}
+
+
+
+a
+{
+    text-decoration:none;
+}
+
+span:hover
+{color:#184A7C}
+
+
+.rotate
+{
+    height:160px;
+    
+    
+}
+
+.first
+{
+    
+height: 110px;
+
+
+
+
+}
+.first p
+{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+ 
+ margin-left:20px;
+}
+input
+{
+    background-color:#F1F2F6;
+    
+    border:none;
+    width:80px;
+    height: 40px;
+    padding:10px;
+  
+}
+input:focus
+{
+    border:none;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     
+ width: 272px;
+}
+.content p
+{
+    font-size: 20px;
+    margin-top:  2vh
+ 
+}
+.firstbottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstbottom
+{
+
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 19.07px;
+text-align: center;
+color: #7F7F7F;
+
+}
+.rotate
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom:1px solid grey;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+width: 132px;
+height: 112.2px;
+
+
+ width:100%;
+ flex-direction: column;
+
+
+}
+.bottom p
+{
+    font-family: Outfit;
+font-size: 12px;
+font-weight: 600;
+line-height: 15.12px;
+text-align: center;
+color: #7F7F7F;
+
+}
